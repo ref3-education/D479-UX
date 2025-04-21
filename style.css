@@ -96,3 +96,11 @@ nav > ul > li > a {
     margin: 10px;
     font-size: 20px;
 }
+.content-section ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 33%;
+    font-size: 20px;
+}
