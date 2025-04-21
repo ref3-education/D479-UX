@@ -64,6 +64,9 @@ nav > ul > li > a {
     text-decoration: none;
     color: darkblue;
 }
+#nav-selected {
+    text-decoration: underline;
+}
 .content {
     flex-grow: 1;;
     padding: 20px;
