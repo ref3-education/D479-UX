@@ -88,7 +88,7 @@ nav > ul > li > a {
     margin-right: 25%;
 }
 
-/* Index */
+/* Internal page content */
 .content-section p {
     border-top: 1px solid darkblue;
     border-bottom: 1px solid darkblue;
@@ -96,14 +96,41 @@ nav > ul > li > a {
     margin: 10px;
     font-size: 20px;
 }
+
+/* General page lists */
 .content-section ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-left: 33%;
     font-size: 20px;
+    text-align: left;
 }
+/* Activities page list */
+#activities-list {
+    margin-left: 33%;
+}
+#activities-list > li {
+    margin: 3px 0;
+    padding: 3px;
+}
+
+/* Transportation page list */
 #transportation-list {
     margin-left: 5%;
+}
+#transportation-list > li {
+    margin: 5px 0;
+    padding: 5px;
+}
+
+/* FAQs page list */
+#faqs-list {
+    margin-left: 5%;
+    text-align: left;
+    padding: 5px;
+}
+#faqs-list > li {
+    margin: 5px 0;
+    padding: 5px;
 }
