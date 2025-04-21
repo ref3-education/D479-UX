@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A prototype for a fake country website.">
@@ -8,20 +9,27 @@
 </head>
 <body>
     <h1>TANITI CUISINE</h1>
-    <nav>
-        <ul>
-            <li><a href="food.html">Food</a></li>
-            <li><a href="lodging.html">Lodging</a></li>
-            <li><a href="activities.html">Activities</a></li>
-            <li><a href="transportation.html">Transportation</a></li>
-            <li><a href="faqs.html">FAQs</a></li>
-        </ul>
-    </nav>
-    <div class="content">
-        <div class = "content-section">
-            <h2>Welcome to Taniti!</h2>
-            <p>Discover the beauty and culture of our island.</p>
-            <img src="images/taniti.jpg" alt="Beautiful view of Taniti" width="600" height="400">
+    <div class="page-content">
+        <nav>
+            <ul>
+                <li id="nav-title">More about Taniti</li>
+                <li class="nav-option"><a href="index.html">Home Page</a></li>
+                <li class="nav-option" id="nav-selected"><a href="food.html">Food</a></li>
+                <li class="nav-option"><a href="lodging.html">Lodging</a></li>
+                <li class="nav-option"><a href="activities.html">Activities</a></li>
+                <li class="nav-option"><a href="transportation.html">Transportation</a></li>
+                <li class="nav-option"><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class = "content-section">
+                <h2>Restaurants</h2>
+                <p>Taniti currently has 10 restaurants:<br><br> Five serve mostly local fish and rice, three serve American-style meals, and two serve Pan-Asian cuisine.</p>
+                <h2>Grocery Stores:</h2>
+                <p>Taniti has two supermarkets, two smaller grocery stores, and one convenience store that is open 24 hours a day.</p>
+                <img src="images/Avocado_gazpacho_in_Río_Grande,_Puerto_Rico.jpg" alt="Taniti Gazpacho" width="350" height="auto">
+                <cite><br>Avocado_gazpacho_in_Río_Grande,_Puerto_Rico<br>Dale Cruse, CC BY 2.0 <br>https://creativecommons.org/licenses/by/2.0, via Wikimedia Commons</cite>
+            </div>
         </div>
     </div>
 </body>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A prototype for a fake country website.">
@@ -8,20 +9,35 @@
 </head>
 <body>
     <h1>TANITI FAQs</h1>
-    <nav>
-        <ul>
-            <li><a href="food.html">Food</a></li>
-            <li><a href="lodging.html">Lodging</a></li>
-            <li><a href="activities.html">Activities</a></li>
-            <li><a href="transportation.html">Transportation</a></li>
-            <li><a href="faqs.html">FAQs</a></li>
-        </ul>
-    </nav>
-    <div class="content">
-        <div class = "content-section">
-            <h2>Welcome to Taniti!</h2>
-            <p>Discover the beauty and culture of our island.</p>
-            <img src="images/taniti.jpg" alt="Beautiful view of Taniti" width="600" height="400">
+    <div class="page-content">
+        <nav>
+            <ul>
+                <li id="nav-title">More about Taniti</li>
+                <li class="nav-option"><a href="index.html">Home Page</a></li>
+                <li class="nav-option"><a href="food.html">Food</a></li>
+                <li class="nav-option"><a href="lodging.html">Lodging</a></li>
+                <li class="nav-option"><a href="activities.html">Activities</a></li>
+                <li class="nav-option"><a href="transportation.html">Transportation</a></li>
+                <li class="nav-option" id="nav-selected"><a href="faqs.html">FAQs</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class = "content-section">
+                <h2>Helpful Taniti Facts:</h2>
+                <ul id="faqs-list">
+                    <li>Power outlets are 120 volts (the same as in the United States).</li>
+                    <li>Alcohol is not allowed to be served or sold between the hours of midnight and 9:00 a.m.</li>
+                    <li>The drinking age on Taniti is 18 and the drinking age is not strictly enforced.</li>
+                    <li>Many younger Tanitians speak fluent English. Very little English is spoken in rural areas, especially by the older residents.</li>
+                    <li>There is one hospital and several clinics. The hospital has many multilingual employees.</li>
+                    <li>Violent crime is very rare in Taniti, but as tourism increases, there are more reports of pickpocketing and other petty crimes.</li>
+                    <li>Taniti enjoys many national holidays, and many tourist attractions and restaurants will be closed on holidays, 
+                        so visitors should plan accordingly.</li>
+                    <li>Taniti uses the U.S. dollar as its currency, but many businesses will also accept euros and yen. Several banks facilitate 
+                        currency exchange, and many businesses accept major credit cards.</li>
+                </ul>
+                <img src="images/taniti.jpg" alt="Beautiful view of Taniti" width="450" height="auto">
+            </div>
         </div>
     </div>
 </body>
